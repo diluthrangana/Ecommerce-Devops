@@ -3,7 +3,7 @@
  * Uses Vite environment variables for flexibility between Local and Cloud.
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_GATEWAY_URL || "http://localhost:3003";
+const API_BASE_URL = import.meta.env.VITE_API_GATEWAY_URL || "https://auth-service.jollymeadow-0e869f40.southeastasia.azurecontainerapps.io";
 
 export const API_CONFIG = {
   AUTH_SERVICE: API_BASE_URL,
